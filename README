@@ -1,0 +1,10 @@
+simple RTI two-way strings server
+
+Usage:
+
+* go build app.go
+* ./app 
+* point two way driver to your machine
+* send commands via
+   curl -X POST http://localhost:8080/mycommand
+
